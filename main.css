@@ -1,0 +1,188 @@
+body {
+	background: black;
+	font-family: 'Oswald', sans-serif;
+	font-color: black;
+}
+
+video {
+    display: block;
+    position: fixed;
+    width: 60%;
+    height: 60%;
+    top: 20%;
+    left: 20%;
+    z-index: 2;
+}
+
+#iceberg {
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	left: 50px;
+	top: 300px;
+}
+
+#yemen {
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	left: 50px;
+	top: 370px;
+}
+
+#caravan {
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	left: 50px;
+	top: 440px;
+}
+
+#blink {
+	animation:blink 700ms infinite alternate;
+	border: 2px solid yellow;
+    width: 61%;
+    height: 64%;
+    top: 18%;
+    left: 19%;
+	position: fixed;
+	z-index: 1;
+}
+
+@keyframes blink {
+    from { opacity:1; }
+    to { opacity:0; }
+}
+
+h1 {
+	font-size: 12px;
+	left: 50px;
+	top: 130px;
+	color: yellow;
+	position: fixed;
+}
+
+h2 {
+	font-size: 12px;
+	left: 1000px;
+	top: 150px;
+	color: yellow;
+	position: fixed;
+}
+
+h3 {
+	font-size: 12px;
+	left: 1000px;
+	top: 250px;
+	color: yellow;
+	position: fixed;
+}
+
+.buttons {
+	font-size: 16px;
+	color: grey;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 10px;
+}
+
+#button {
+	background: yellow;
+	border-radius: 5px;
+	opacity: 0.9;
+	width: 250px;
+	height: 80px;
+	display: none;
+	position: fixed;
+	z-index: 4;
+	left: 280px;
+	top: 200px;
+}
+
+#button_two {
+	background: pink;
+	border-radius: 5px;
+	opacity: 0.9;
+	width: 250px;
+	height: 80px;
+	display: none;
+	position: fixed;
+	z-index: 5;
+	left: 220px;
+	top: 280px;
+}
+
+#button_three {
+	background: pink;
+	border-radius: 5px;
+	opacity: 0.9;
+	width: 250px;
+	height: 80px;
+	display: none;
+	position: fixed;
+	z-index: 6;
+	left: 700px;
+	top: 150px;
+}
+
+#button_four {
+	background: white;
+	border-radius: 5px;
+	opacity: 0.9;
+	width: 250px;
+	height: 80px;
+	display: none;
+	position: fixed;
+	z-index: 7;
+	left: 590px;
+	top: 280px;
+}
+
+#button_five {
+	background: yellow;
+	border-radius: 5px;
+	opacity: 0.9;
+	width: 250px;
+	height: 80px;
+	display: none;
+	position: fixed;
+	z-index: 8;
+	left: 350px;
+	top: 400px;
+}
+
+#button_six {
+	background: yellow;
+	border-radius: 5px;
+	opacity: 0.9;
+	width: 250px;
+	height: 80px;
+	display: none;
+	position: fixed;
+	z-index: 9;
+	left: 630px;
+	top: 360px;
+}
+
+#button_seven {
+	background: white;
+	border-radius: 5px;
+	opacity: 0.9;
+	width: 250px;
+	height: 80px;
+	display: none;
+	position: fixed;
+	z-index: 10;
+	left: 720px;
+	top: 400px;
+}
+
+#not {
+	display: none;
+	z-index: 11;
+	position: fixed;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+}
